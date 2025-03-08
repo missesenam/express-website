@@ -25,21 +25,21 @@ server.use(express.static(path.join(__dirname, "public")));
 //   // send
 //   res.sendFile(aboutPageFilePath);
 // };
-// const handleProductPage = (req, res) => {
+// const handlecontactPage = (req, res) => {
 //   // res.send("hello this is home page");
 //   // find
-//   const productPageFilePath = path.join(__dirname, "public", "product.html");
+//   const contactPageFilePath = path.join(__dirname, "public", "contact.html");
 //   // send
-//   res.sendFile(productPageFilePath);
+//   res.sendFile(contactPageFilePath);
 // };
-// const handleTeamPage = (req, res) => {
-//   const teamPageFilePath = path.join(__dirname, "public", "team.html");
-//   res.sendFile(teamPageFilePath);
+// const handleservicesPage = (req, res) => {
+//   const servicesPageFilePath = path.join(__dirname, "public", "services.html");
+//   res.sendFile(servicesPageFilePath);
 // };
 // Routes
 // server.get("/", handleHomePage);
 // server.get("/about", handleAboutPage);
-// server.get("/product", handleProductPage);
-// server.get("/team", handleTeamPage);
+// server.get("/contact", handlecontactPage);
+// server.get("/services", handleservicesPage);
 
 server.listen(4000, () => console.log("Server ready")); // Port should be a number
